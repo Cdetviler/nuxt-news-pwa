@@ -23,9 +23,14 @@ $ npm start
 $ npm run generate
 
 # create an env file in the root
-# this is where you will store the API key (given to you by @cdetviler)
+# this is where you will store your API key can be generated at https://newsapi.org/
 # .env should *not* be committed
 $ touch .env
+```
+
+the .env file contents should look like this
+```
+API_KEY=your_api_key_goes_here
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
